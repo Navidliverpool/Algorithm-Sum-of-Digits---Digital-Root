@@ -18,10 +18,7 @@ namespace Sum_of_Digits___Digital_Root
             var inputToString = n.ToString();
             var splitedInpt = inputToString.ToCharArray();
             var sum = 0;
-
-            Console.WriteLine("------------------");
             var inputToInt = 0;
-           
             foreach (var item in splitedInpt)
             {
                 inputToInt = int.Parse(item.ToString());
